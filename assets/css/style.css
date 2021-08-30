@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100vh;
 
-    background-image:url("https://numbmypain1000.github.io/Intro.jpg") center no-repeat;
+    background: url("../images/Intro.jpg") center no-repeat;
    background-size: cover;
     background-size: cover;
 
@@ -95,5 +95,7 @@ button:active {
 
 }
 
-
+git init
+git add README.md
+git commit
 }
