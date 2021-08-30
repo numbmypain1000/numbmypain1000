@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    line-height: 2;
+    color: #333;
+    margin: 110;
+}
+
+
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* Intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+    background: url("../images/intro.jpg") center no-repeat;
+   background-size: cover;
+    background-size: cover;
+
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+ text-align: center;
+    position: 10;
+          
+    
+}
+
+
+/* Button */
+
+body {
+background-color: #101010;
+display: flex;
+align-items: center;
+min-height: 100vh;
+justify-content: center;
+    
+
+}
+
+button{
+    font-family: monospace;
+font-weight: bold;
+    text-transform: uppercase;
+padding: 10px 45px;
+    background-color: black;
+    border: 3px solid white;
+border-radius: 50px;
+    font-size: 30px;
+color: white;
+    outline: none;
+transition: .3s;
+    
+
+   
+    
+}
+
+button:hover {
+    background-color: black;
+        border-color: red;
+    box-shadow: 0px 0px 20px red;
+    
+}
+button:active {
+    background-color: red;
+     border-color: red;
+    box-shadow: 0px 0px 20px red;
+    transition: .10s;      
+
+}
+
+
+}
