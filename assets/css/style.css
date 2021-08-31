@@ -1,101 +1,68 @@
 body {
+ 
+    font-family: sans-serif;
+
+    
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
 
     font-size: 15px;
     line-height: 2;
     color: #333;
     margin: 110;
-}
-
-
-    box-sizing: border-box;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-}
-
-
-/* Container */
-.container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-
-
-/* Intro */
-.intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-
-    background: url("../images/Intro.jpg");
-   background-size: cover;
-    background-size: cover;
-
-}
-
-.intro__inner {
-    width: 100%;
-    max-width: 880px;
-    margin: 0 auto;
- text-align: center;
-    position: 10;
-          
     
+overflow:hidden;
+overflow-y:hidden;
+overflow-x:hidden;  
+    background-attachment: fixed;   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("images/Intro.jpg");
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+
+
+display: flex;
+align-items: center;
+min-height: 100vh;
+    min-width: 600px;
+justify-content: center;
+}
 
 /* Button */
 
 body {
-background-color: #101010;
+background-color:; 
 display: flex;
 align-items: center;
-min-height: 100vh;
+min-height: 100 vh;
 justify-content: center;
     
-
+    
 }
 
-button{
+a{
+    
+    filter: drop-shadow(0 -3px rgba(255,0,0,0.5));
+
+    font-family:;
+    font-weight:;
+    text-transform: uppercase;
+    padding: 15px 45px;
+    transition: .3s;
+          
+}
+
+
+a{
     font-family: monospace;
 font-weight: bold;
     text-transform: uppercase;
-padding: 10px 45px;
-    background-color: black;
-    border: 3px solid white;
-border-radius: 50px;
+padding: 10px 70px;
     font-size: 30px;
-color: white;
-    outline: none;
+
 transition: .3s;
-    
-
-   
-    
 }
 
-button:hover {
-    background-color: black;
-        border-color: red;
-    box-shadow: 0px 0px 20px red;
-    
-}
-button:active {
-    background-color: red;
-     border-color: red;
-    box-shadow: 0px 0px 20px red;
-    transition: .10s;      
 
-}
-
-git init
-git add README.md
-git commit
-}
