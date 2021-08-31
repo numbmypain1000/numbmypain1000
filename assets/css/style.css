@@ -1,0 +1,68 @@
+body {
+ 
+    font-family: sans-serif;
+
+    
+    margin: 0;
+
+    font-size: 15px;
+    line-height: 2;
+    color: #333;
+    margin: 110;
+    
+overflow:hidden;
+overflow-y:hidden;
+overflow-x:hidden;  
+    background-attachment: fixed;   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("images/Intro.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+
+
+display: flex;
+align-items: center;
+min-height: 100vh;
+    min-width: 600px;
+justify-content: center;
+}
+
+/* Button */
+
+body {
+background-color:; 
+display: flex;
+align-items: center;
+min-height: 100 vh;
+justify-content: center;
+    
+    
+}
+
+a{
+    
+    filter: drop-shadow(0 -3px rgba(255,0,0,0.5));
+
+    font-family:;
+    font-weight:;
+    text-transform: uppercase;
+    padding: 15px 45px;
+    transition: .3s;
+          
+}
+
+
+a{
+    font-family: monospace;
+font-weight: bold;
+    text-transform: uppercase;
+padding: 10px 70px;
+    font-size: 30px;
+
+transition: .3s;
+}
+
+
